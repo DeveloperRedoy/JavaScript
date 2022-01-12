@@ -1,8 +1,5 @@
 const str = "Hello World !";
 
-const ami = str.charCodeAt(); 
-
-// it is character receve function
-// first character H receveed
+const ami = str.codePointAt();
 
 document.write(ami);
