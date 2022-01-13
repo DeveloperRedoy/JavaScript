@@ -1,9 +1,9 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.replace("Redoy","Yusuf");
+const v = str.search("S");
 
 // output
-// MD.Yusuf Sarder
-// it is a replace word of letter line
+// 9
+// search() function searching char string index number
 
 document.write(v);
