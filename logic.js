@@ -1,7 +1,7 @@
 const str = "Hello World !";
 
-const v = str.includes("W");
+const v = str.indexOf("Hello");
 
-// includes() is all string visible testting function()
+// indexOf() function is string index nomber testing. it is first chracter index testing.
 
 document.write(v);
