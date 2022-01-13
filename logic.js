@@ -1,9 +1,9 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.repeat(2);
+const v = str.replace("Redoy","Yusuf");
 
 // output
-//MD.Redoy SarderMD.Redoy Sarder
-// it is a repeating string
+// MD.Yusuf Sarder
+// it is a replace word of letter line
 
 document.write(v);
