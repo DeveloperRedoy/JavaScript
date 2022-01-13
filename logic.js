@@ -1,6 +1,6 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.slice(3,5);
+const v = str.split(" ");
 
 // output
 // Re
