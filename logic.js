@@ -1,9 +1,8 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.search("S");
+const v = str.slice(3,5);
 
 // output
-// 9
-// search() function searching char string index number
-
+// Re
+// it is searcing index string for limit
 document.write(v);
