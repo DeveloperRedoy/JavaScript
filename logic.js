@@ -1,7 +1,7 @@
-const str1 = "Hello World !";
+const str = "Hello World !";
 
-const str2 = "My name is MD.Redoy Sarder.";
+const v = str.endsWith("!");
 
-const ami = str1.concat(str2);
-// str1 and str2 string added
-document.write(ami);
+// endsWith() is last string visible testting function()
+
+document.write(v);
