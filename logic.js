@@ -1,7 +1,7 @@
-const str1 = "Hello World !";
+const str1 = "Hello World ! R";
 const str2 = "Hello World ! Redoy";
 
-const v = str2.localeCompare(str1);
+const v = str2.match(str1);
 
 // localeCompare smoll and big string calculation
 // -1 if sorted before
