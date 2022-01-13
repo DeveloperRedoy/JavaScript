@@ -1,7 +1,7 @@
 const str = "Hello World !";
 
-const v = str.endsWith("!");
+const v = str.includes("W");
 
-// endsWith() is last string visible testting function()
+// includes() is all string visible testting function()
 
 document.write(v);
