@@ -1,9 +1,9 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.padStart(20,'*');
+const v = str.repeat(2);
 
 // output
-//*****MD.Redoy Sarder
-// it is a start pad in index number
+//MD.Redoy SarderMD.Redoy Sarder
+// it is a repeating string
 
 document.write(v);
