@@ -1,11 +1,7 @@
-const str1 = "Hello World ! R";
-const str2 = "Hello World ! Redoy";
+const str = "MD.Redoy Sarder";
 
-const v = str2.match(str1);
-
-// localeCompare smoll and big string calculation
-// -1 if sorted before
-// 1 if sorted after
-// 0 if equal Works according to the index
+const v = str.padEnd(20,'*');
+// output
+// MD.Redoy Sarder*****
 
 document.write(v);
