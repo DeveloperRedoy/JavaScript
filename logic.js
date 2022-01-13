@@ -1,7 +1,7 @@
 const str = "Hello World !";
 
-const v = str.indexOf("Hello");
+const v = str.lastIndexOf("o");
 
-// indexOf() function is string index nomber testing. it is first chracter index testing.
+// lastIndexOf() function is string index nomber testing. it is last chracter show in two same char.
 
 document.write(v);
