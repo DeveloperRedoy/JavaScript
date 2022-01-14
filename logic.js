@@ -1,8 +1,8 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.toLocaleLowerCase();
+const v = str.toLocaleUpperCase();
 
 // output 
-// md.redoy sarder
-// it is Normal string convart lowerCase
+// MD.REDOY SARDER
+// it is Normal string convart UpperCase
 document.write(v);
