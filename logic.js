@@ -1,12 +1,8 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.substring(3);
-const b = str.substring(3,6);
+const v = str.toLocaleLowerCase();
 
-// output
-// v = Redoy Sarder
-// b = Red
-// it is string limit declaration
-
-document.write(v + "<br>");
-document.write(b);
+// output 
+// md.redoy sarder
+// it is Normal string convart lowerCase
+document.write(v);
