@@ -1,6 +1,6 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.trimEnd();
+const v = str.trimStart();
 
 // output 
 // MD.REDOY SARDER
