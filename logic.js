@@ -1,10 +1,12 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.startsWith("MD");
+const v = str.substring(3);
+const b = str.substring(3,6);
 
 // output
-// true
-// it is start char return
-// if, give start char so, return true else false
+// v = Redoy Sarder
+// b = Red
+// it is string limit declaration
 
-document.write(v);
+document.write(v + "<br>");
+document.write(b);
