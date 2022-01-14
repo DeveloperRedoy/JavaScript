@@ -1,9 +1,9 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.toString();
+const v = str.toUpperCase();
 
 // output 
-// MD.Redoy Sarder
-// it is int double or float  convert String
+// MD.REDOY SARDER
+// it is convert normal string to UpperCase
 
 document.write(v);
