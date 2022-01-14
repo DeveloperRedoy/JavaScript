@@ -1,9 +1,9 @@
 const str = "MD.Redoy Sarder";
 
-const v = str.toLowerCase();
+const v = str.toString();
 
 // output 
-// md.redoy sarder
-// it is Normal string convart LowerCase
+// MD.Redoy Sarder
+// it is int double or float  convert String
 
 document.write(v);
