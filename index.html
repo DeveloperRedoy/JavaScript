@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- ============= -->
+    <link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
+    <script src="https://codemirror.net/lib/codemirror.js"></script>
+    <script src="https://codemirror.net/mode/xml/xml.js"></script>
+    <script src="https://codemirror.net/mode/css/css.js"></script>
+    <script src="https://codemirror.net/mode/javascript/javascript.js"></script>
+    <!-- ================ -->
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="code-area">
-        <textarea name="" id="htmlCode" cols="30" rows="10" placeholder="Html Code" oninput="showPreview()"></textarea>
-        <textarea name="" id="cssCode" cols="30" rows="10" placeholder="CSS Code" oninput="showPreview()"></textarea>
-        <textarea name="" id="jsCode" cols="30" rows="10" placeholder="JavaScript Code" oninput="showPreview()"></textarea>
+    
+    <div class="header">
+        <button id="run-btn">Run</button>
     </div>
-    <div class="preview-area">
-        <iframe id="preview-window" src="" frameborder="0"></iframe>
+    <div class="editor">
+        <div class="code">
+            <div class="html-code"></div>
+            <div class="css-code"></div>
+            <div class="js-code"></div>
+        </div>
+        <div class="preview">
+            <iframe id="preview-window"></iframe>
+        </div>
     </div>
 
     <script src="logic.js"></script>

@@ -1,36 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
-    height: 100vh;
-    display: flex;
+    margin: 0;
+    font-family: "Raleway",sans-serif;
 }
 
-.code-area{
+.header{
+    width: 100%;
+    height: 50px;
+    background: #111;
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    border-right: 1px solid #555;
+    justify-content: center;
+    align-items: center;
 }
 
-.code-area textarea{
-    resize: none;
+.header button{
+    padding: 10px 20px;
+    background: #f5f5f5;
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
     outline: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.editor{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+}
+
+.editor .code{
+    width: 500px;
+    border-right: 1px solid #888;
+}
+
+.editor .code > div{
     width: 100%;
     height: 33.33%;
-    font-size: 18px;
-    padding: 10px;
+    border-bottom: 1px solid #888;
 }
 
-.preview-area {
-    width: 50%;
+.editor .preview{
+    width: calc(100% - 500px);
+    height: 100%;
 }
 
-.preview-area iframe{
+.editor .preview iframe{
     width: 100%;
     height: 100%;
     border: none;
+    outline: none;
+}
+
+.CodeMirror{
+    height: scroll;
 }
