@@ -5,31 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- ============= -->
-    <link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
-    <script src="https://codemirror.net/lib/codemirror.js"></script>
-    <script src="https://codemirror.net/mode/xml/xml.js"></script>
-    <script src="https://codemirror.net/mode/css/css.js"></script>
-    <script src="https://codemirror.net/mode/javascript/javascript.js"></script>
-    <!-- ================ -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div class="header">
-        <button id="run-btn">Run</button>
-    </div>
-    <div class="editor">
-        <div class="code">
-            <div class="html-code"></div>
-            <div class="css-code"></div>
-            <div class="js-code"></div>
-        </div>
-        <div class="preview">
-            <iframe id="preview-window"></iframe>
-        </div>
-    </div>
+    <div id="wrapper">
 
+        <div id="edit_controls">
+         <li>GrayScale<br><input id="grayscale" class="range" type="range" min="0" max="100" value="0"></li>
+         
+         <li>Blur<br><input id="blur" class="range" type="range" min="0" max="10" value="0"></li>
+         
+         <li>Exposure<br><input id="exposure" class="range" type="range" min="0" max="200" value="100"></li>
+         
+         <li>Sepia<br><input id="sepia" class="range" type="range" min="0" max="100" value="0"></li>
+         
+         <li>Opacity<br><input id="opacity" class="range" type="range" min="0" max="100" value="100"></li>
+        </div>
+         
+        <div id="image_div">
+         <img src="ami.jpg" id="edit_image">
+        </div>
+    </div>        
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="logic.js"></script>
 </body>
 </html>
